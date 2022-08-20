@@ -30,7 +30,7 @@ public class RecurringAccount extends BankAccount{
     public void display() {
         super.display();
         System.out.println("closingDate = " + closingDate);
-        System.out.println("tenure = " + tenure);
-        System.out.println("Balance in the recurring account is : $" + showBalance());
+        System.out.println("tenure = " + tenure + "years");
+        System.out.println("Balance in the recurring account is = $" + showBalance());
     }
 }

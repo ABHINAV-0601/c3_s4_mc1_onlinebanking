@@ -63,14 +63,14 @@ public abstract class BankAccount {
     public abstract double showBalance();
 
     public void display(){
-        System.out.println("Bank Account Details");
+
         System.out.println("accountNumber = " + accountNumber);
         System.out.println("accountOpeningDate = " + accountOpeningDate);
         System.out.println("modeOfOperation = " + modeOfOperation);
         System.out.println("internetBankingEnabled = " + internetBankingEnabled);
-        System.out.println("availableBalance = " + availableBalance);
-        System.out.println("totalBalance = " + totalBalance);
-        System.out.println("rateOfInterest = " + rateOfInterest);
-        System.out.println();
+        System.out.println("availableBalance = $" + availableBalance);
+        System.out.println("totalBalance = $" + totalBalance);
+        System.out.println("rateOfInterest = " + rateOfInterest +"%");
+
     }
 }

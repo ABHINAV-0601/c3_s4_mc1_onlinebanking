@@ -20,9 +20,9 @@ public class SavingsAccount extends BankAccount{
     @Override
     public void display() {
         super.display();
-        System.out.println("Savings Account Details");
-        System.out.println("Balance in Savings Account is : $" + showBalance());
-        System.out.println("Balance in Savings Account after crediting amount is : $" + creditCash(500));
-        System.out.println("Balance in Savings Account after debiting amount is : $" + debitCash(300));
+
+        System.out.println("Balance in Savings Account is = $" + showBalance());
+        System.out.println("Balance in Savings Account after crediting amount 500 is = $" + creditCash(500));
+        System.out.println("Balance in Savings Account after debiting amount 300 is = $" + debitCash(300));
     }
 }
