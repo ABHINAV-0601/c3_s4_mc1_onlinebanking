@@ -25,4 +25,12 @@ public class RecurringAccount extends BankAccount{
     public double showBalance(){
         return getAvailableBalance();
     }
+
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("closingDate = " + closingDate);
+        System.out.println("tenure = " + tenure);
+        System.out.println("Balance in the recurring account is : $" + showBalance());
+    }
 }
